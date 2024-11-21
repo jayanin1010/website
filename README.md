@@ -27,7 +27,455 @@ Publish the website in the given URL.
 
 PROGRAM:
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Millets&More</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Header Section */
+        .header {
+            text-align: center;
+            background-color: #e9ecef;
+            padding: 20px;
+        }
+
+        .header img {
+            width: 60px;
+        }
+
+        .nav {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+        }
+
+        .nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .promo {
+            background-image: url('https://via.placeholder.com/'); 
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .promo h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .promo p {
+            font-size: 16px;
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        /* Cards Section */
+        .cards {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .card {
+            display: inline-block;
+            width: 300px;
+            margin: 0 15px;
+            background-color: #fefefe;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: left;
+            padding: 20px;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .card h3 {
+            font-size: 20px;
+            margin: 15px 0;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #666;
+        }
+
+/* About Section */
+.about-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+.contact-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <img src="DALL·E 2024-10-20 22.23.26 - A modern logo for a restaurant named 'Millet & More'. The design features an elegant and minimalist style, incorporating elements of organic millet gr.webp" alt="Logo"> 
+        <h1>Millet & More</h1>
+    </div>
+
+    <!-- Navigation Menu -->
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="booking.html">Book</a>
+        <a href="#about">About</a>
+    </div>
+c
+    <!-- Promotional Section -->
+    <div class="promo">
+        <h1>30% Off This Weekend</h1>
+        
+    </div>
+
+    <!-- Cards Section -->
+    <div class="cards">
+        <div class="card">
+            <img src="DALL·E 2024-10-20 22.28.11 - A menu design for a restaurant named 'Millets & More'. The menu features a variety of healthy dishes made with millets, including salads, bowls, and d.webp" alt="Menu Image"> <!-- Replace with your menu image -->
+            <a href="menu.html">Click here</a>
+            <h3>Our New Menu</h3>
+            
+        </div>
+        <div class="card">
+            <img src="DALL·E 2024-10-20 22.28.26 - An image for 'Millets & More' restaurant depicting a table reservation. The design includes an elegant wooden table set for two with a stylish tablecl.webp" alt="Book a Table Image"> <!-- Replace with your booking image -->
+            <a href="booking.html">Click here</a>
+            <h3>Book a Table</h3>
+           
+        </div>
+        <div class="card">
+            <img src="image.png" alt="Opening Hours Image"> 
+            <a href="opening.html">Click here</a>
+            <h3>Opening Hours</h3>
+           
+        </div>
+    </div>
+
+<BR></BR>
+
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>
+            At Millets & More, we believe that food should not only nourish the body but also tantalize the taste buds. Our chefs craft each dish with care, using locally sourced, organic produce to ensure that every meal is as fresh and flavorful as possible. 
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Email: contact@millets&more.com</p>
+        <p>Phone: +91 234 567 890</p>
+        <p>Address: 123 Main Street, Foodville</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Millet&More Restaurant. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card menu">
+            <h2>Our Menu</h2>
+            <h3>Appetizers</h3>
+            <ul>
+                <li>Garlic Bread - $4</li>
+                <li>Bruschetta - $5</li>
+                <li>Stuffed Mushrooms - $6</li>
+            </ul>
+
+            <h3>Main Courses</h3>
+            <ul>
+                <li>Grilled Chicken Alfredo - $15</li>
+                <li>Margherita Pizza - $12</li>
+                <li>Vegetarian Lasagna - $13</li>
+                <li>Beef Burger with Fries - $14</li>
+            </ul>
+
+            <h3>Desserts</h3>
+            <ul>
+                <li>Chocolate Lava Cake - $7</li>
+                <li>Tiramisu - $6</li>
+                <li>Cheesecake - $6</li>
+            </ul>
+
+            <h3>Beverages</h3>
+            <ul>
+                <li>Coffee - $3</li>
+                <li>Fresh Lemonade - $4</li>
+                <li>Soft Drinks - $3</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opening Hours</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h2>Opening Hours</h2>
+            <p>We look forward to welcoming you during the following hours of operation:</p>
+
+            <h3>Regular Hours</h3>
+            <ul>
+                <li>Monday to Friday: 10:00 AM - 10:00 PM</li>
+                <li>Saturday: 9:00 AM - 11:00 PM</li>
+                <li>Sunday: 9:00 AM - 9:00 PM</li>
+            </ul>
+
+            <h3>Special Hours</h3>
+            <p>We also operate extended hours during holidays and special events. Stay tuned for more updates on these occasions.</p>
+
+            <h3>Contact Us</h3>
+            <ul>
+                <li>Phone: +123-456-7890</li>
+                <li>Email: contact@restaurant.com</li>
+            </ul>
+
+            <h3>Location</h3>
+            <p>123 Foodie Street, Culinary City, FC 45678</p>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Table</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h2>Book a Table</h2>
+            <p>Reserve your spot at our restaurant for an amazing dining experience. Please provide your details below, and we will get back to you with confirmation.</p>
+
+            <h3>Contact Information</h3>
+            <ul>
+                <li>Phone: +123-456-7890</li>
+                <li>Email: reservations@restaurant.com</li>
+            </ul>
+
+            <h3>Online Booking Form</h3>
+            <form>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number"><br><br>
+
+                <label for="date">Reservation Date:</label>
+                <input type="date" id="date" name="date"><br><br>
+
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time"><br><br>
+
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1" max="20" value="2"><br><br>
+
+                <input type="submit" value="Submit Reservation">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+h2, h3 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+p, li {
+    color: #666;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+form {
+    text-align: left;
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="date"], input[type="time"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+
 OUTPUT:
+
+
+![image](https://github.com/user-attachments/assets/a8d76571-729c-42c2-9a06-b20db1174708)
+
+![image](https://github.com/user-attachments/assets/c3f6a915-d67f-410e-8ca1-f6775e1f8608)
+
+![image](https://github.com/user-attachments/assets/5213c8df-15b6-423c-8668-6c3df998b689)
+
+![image](https://github.com/user-attachments/assets/57d93ad1-78aa-4c4d-8b73-2b34b0811970)
+
+![image](https://github.com/user-attachments/assets/02f9531a-3cac-4b3f-8542-8e18689d4cab)
+
+![image](https://github.com/user-attachments/assets/28f61bd0-6fce-4f77-98f7-9011e5de59d9)
+
+
+
+
+
+
 
 RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
